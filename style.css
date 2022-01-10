@@ -1,0 +1,42 @@
+.img-mod {
+  height: 150px;
+  width: 150px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-cen {
+  text-align: center;
+}
+.rotate-logo {
+  height: 200px;
+  padding-left: 50%;
+  padding-top: 10%;
+}
+.img-size {
+  transform: translate(-50%, -50%);
+  animation: myfirst 1.5s infinite linear;
+  width: 20%;
+}
+
+@media (max-width: 800px) {
+  .rotate-logo {
+    height: 100px;
+    padding-left: 50%;
+    padding-top: 18%;
+  }
+  .img-size {
+    transform: translate(-50%, -50%);
+    animation: myfirst 1.5s infinite linear;
+    width: 30%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
