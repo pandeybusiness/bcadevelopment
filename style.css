@@ -11,8 +11,7 @@
 .rotate-logo {
   height: 200px;
   padding-left: 50%;
-  padding-top: 5%;
-  padding-down: 5%;
+  padding-top: 10%;
 }
 .img-size {
   transform: translate(-50%, -50%);
