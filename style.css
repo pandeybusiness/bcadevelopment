@@ -12,6 +12,7 @@
   height: 200px;
   padding-left: 50%;
   padding-top: 10%;
+  padding-down: 5%;
 }
 .img-size {
   transform: translate(-50%, -50%);
