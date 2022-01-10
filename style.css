@@ -17,7 +17,7 @@
 .img-size {
   transform: translate(-50%, -50%);
   animation: myfirst 1.5s infinite linear;
-  width: 20%;
+  width: 200%;
 }
 
 @media (max-width: 800px) {
